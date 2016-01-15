@@ -46,3 +46,14 @@ group :development do
   gem 'spring'
 end
 
+group :test do
+    gem 'rspec-rails', '~> 3.0'
+    gem 'factory_girl_rails'
+    gem 'simplecov', :require => false
+    gem 'simplecov-json', :require => false
+    gem 'simplecov-rcov', :require => false
+    gem 'simplecov-sublime-ruby-coverage', :require => false
+    # gem 'rspec-sidekiq'
+    # gem 'capybara'
+end
+
